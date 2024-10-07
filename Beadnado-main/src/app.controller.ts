@@ -17,7 +17,7 @@ export class AppController {
   @Redirect('/rendeles')
   getIndex() {
 
-  }
+  } 
 
   @Get('rendeles')
   @Render('rendeles')
